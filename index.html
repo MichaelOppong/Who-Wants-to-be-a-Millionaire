@@ -10,6 +10,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
     background-image:url('https://s3.amazonaws.com/html5.powershow.com/3671768/data/img0.png');
     background-size:100%;
     font-family: 'Sawarabi Gothic', sans-serif;
+    font-size:medium;
 }
 .start{
     display:flex;
@@ -109,6 +110,7 @@ $(".main").hide();
 $("button").click(function(){
     $(".inputDiv").hide(); 
     $(".main").show(); 
+    $(".startImage").css("width","20%");
     name=$("input").val();
     addQuestion(0,0);
 });
