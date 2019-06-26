@@ -15,6 +15,7 @@ $(".main").hide();
 $("button").click(function(){
     $(".inputDiv").hide(); 
     $(".main").show(); 
+    $(".startImage").css("width","20%");
     name=$("input").val();
     addQuestion(0,0);
 });
